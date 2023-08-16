@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Increment</title>
+  </head>
+  <body>
+    <center>
+      <h1 id="number">1</h1>
+      <button onclick="increase()">Increase</button>
+    </center>
+
+    <script type="text/javascript">
+
+      function increase() {
+
+          let num = document.getElementById('number');
+          let nums = parseInt(num.textContent);
+          num.textContent = nums + 2;
+
+          console.log(nums);
+
+        //   let num = document.getElementById('number');
+        //   let inc = parseInt(num.textContent);
+        //   num.textContent = inc + 1
+        //   console.log(inc);
+          
+
+
+      }
+            
+      
+    </script>
+  </body>
+</html>
